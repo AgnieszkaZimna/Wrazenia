@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A34FD7B1EC5E87D001E9574 /* WpisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34FD7A1EC5E87D001E9574 /* WpisTableViewCell.swift */; };
+		9A4641DC1EC73B6D00528B95 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4641DB1EC73B6D00528B95 /* RatingControl.swift */; };
+		9A4C792C1EC868670013867C /* Wpis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C792B1EC868670013867C /* Wpis.swift */; };
+		9A5066AD1EAE4E6400C4E889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5066AC1EAE4E6400C4E889 /* AppDelegate.swift */; };
+		9A5066AF1EAE4E6400C4E889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5066AE1EAE4E6400C4E889 /* ViewController.swift */; };
+		9A5066B21EAE4E6400C4E889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5066B01EAE4E6400C4E889 /* Main.storyboard */; };
+		9A5066B41EAE4E6400C4E889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5066B31EAE4E6400C4E889 /* Assets.xcassets */; };
+		9A5066B71EAE4E6400C4E889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5066B51EAE4E6400C4E889 /* LaunchScreen.storyboard */; };
+		9A5066C21EAE4E6400C4E889 /* WrazeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5066C11EAE4E6400C4E889 /* WrazeniaTests.swift */; };
+		9AF10AB51EC08FC10087F21C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AF10AB31EC08FC10087F21C /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A5066BE1EAE4E6400C4E889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5066A11EAE4E6300C4E889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5066A81EAE4E6300C4E889;
+			remoteInfo = Wrazenia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A34FD7A1EC5E87D001E9574 /* WpisTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WpisTableViewCell.swift; sourceTree = "<group>"; };
+		9A4641DB1EC73B6D00528B95 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		9A4C792B1EC868670013867C /* Wpis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wpis.swift; sourceTree = "<group>"; };
+		9A5066A91EAE4E6300C4E889 /* Wrazenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrazenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5066AC1EAE4E6400C4E889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A5066AE1EAE4E6400C4E889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A5066B11EAE4E6400C4E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A5066B31EAE4E6400C4E889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A5066B61EAE4E6400C4E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A5066B81EAE4E6400C4E889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5066BD1EAE4E6400C4E889 /* WrazeniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WrazeniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5066C11EAE4E6400C4E889 /* WrazeniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrazeniaTests.swift; sourceTree = "<group>"; };
+		9A5066C31EAE4E6400C4E889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF10AB41EC08FC10087F21C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A5066A61EAE4E6300C4E889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5066BA1EAE4E6400C4E889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A5066A01EAE4E6300C4E889 = {
+			isa = PBXGroup;
+			children = (
+				9A5066AB1EAE4E6300C4E889 /* Wrazenia */,
+				9A5066C01EAE4E6400C4E889 /* WrazeniaTests */,
+				9A5066AA1EAE4E6300C4E889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5066AA1EAE4E6300C4E889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A5066A91EAE4E6300C4E889 /* Wrazenia.app */,
+				9A5066BD1EAE4E6400C4E889 /* WrazeniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5066AB1EAE4E6300C4E889 /* Wrazenia */ = {
+			isa = PBXGroup;
+			children = (
+				9A5066AC1EAE4E6400C4E889 /* AppDelegate.swift */,
+				9A5066AE1EAE4E6400C4E889 /* ViewController.swift */,
+				9A4641DB1EC73B6D00528B95 /* RatingControl.swift */,
+				9A34FD7A1EC5E87D001E9574 /* WpisTableViewCell.swift */,
+				9A4C792B1EC868670013867C /* Wpis.swift */,
+				9A5066B01EAE4E6400C4E889 /* Main.storyboard */,
+				9AF10AB31EC08FC10087F21C /* Model.xcdatamodeld */,
+				9A5066B31EAE4E6400C4E889 /* Assets.xcassets */,
+				9A5066B51EAE4E6400C4E889 /* LaunchScreen.storyboard */,
+				9A5066B81EAE4E6400C4E889 /* Info.plist */,
+			);
+			path = Wrazenia;
+			sourceTree = "<group>";
+		};
+		9A5066C01EAE4E6400C4E889 /* WrazeniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A5066C11EAE4E6400C4E889 /* WrazeniaTests.swift */,
+				9A5066C31EAE4E6400C4E889 /* Info.plist */,
+			);
+			path = WrazeniaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A5066A81EAE4E6300C4E889 /* Wrazenia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5066C61EAE4E6400C4E889 /* Build configuration list for PBXNativeTarget "Wrazenia" */;
+			buildPhases = (
+				9A5066A51EAE4E6300C4E889 /* Sources */,
+				9A5066A61EAE4E6300C4E889 /* Frameworks */,
+				9A5066A71EAE4E6300C4E889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wrazenia;
+			productName = Wrazenia;
+			productReference = 9A5066A91EAE4E6300C4E889 /* Wrazenia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A5066BC1EAE4E6400C4E889 /* WrazeniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5066C91EAE4E6400C4E889 /* Build configuration list for PBXNativeTarget "WrazeniaTests" */;
+			buildPhases = (
+				9A5066B91EAE4E6400C4E889 /* Sources */,
+				9A5066BA1EAE4E6400C4E889 /* Frameworks */,
+				9A5066BB1EAE4E6400C4E889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A5066BF1EAE4E6400C4E889 /* PBXTargetDependency */,
+			);
+			name = WrazeniaTests;
+			productName = WrazeniaTests;
+			productReference = 9A5066BD1EAE4E6400C4E889 /* WrazeniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A5066A11EAE4E6300C4E889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Agnieszka Zimna";
+				TargetAttributes = {
+					9A5066A81EAE4E6300C4E889 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9A5066BC1EAE4E6400C4E889 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A5066A81EAE4E6300C4E889;
+					};
+				};
+			};
+			buildConfigurationList = 9A5066A41EAE4E6300C4E889 /* Build configuration list for PBXProject "Wrazenia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A5066A01EAE4E6300C4E889;
+			productRefGroup = 9A5066AA1EAE4E6300C4E889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A5066A81EAE4E6300C4E889 /* Wrazenia */,
+				9A5066BC1EAE4E6400C4E889 /* WrazeniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A5066A71EAE4E6300C4E889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5066B71EAE4E6400C4E889 /* LaunchScreen.storyboard in Resources */,
+				9A5066B41EAE4E6400C4E889 /* Assets.xcassets in Resources */,
+				9A5066B21EAE4E6400C4E889 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5066BB1EAE4E6400C4E889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A5066A51EAE4E6300C4E889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A34FD7B1EC5E87D001E9574 /* WpisTableViewCell.swift in Sources */,
+				9A5066AF1EAE4E6400C4E889 /* ViewController.swift in Sources */,
+				9A4C792C1EC868670013867C /* Wpis.swift in Sources */,
+				9A5066AD1EAE4E6400C4E889 /* AppDelegate.swift in Sources */,
+				9A4641DC1EC73B6D00528B95 /* RatingControl.swift in Sources */,
+				9AF10AB51EC08FC10087F21C /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5066B91EAE4E6400C4E889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5066C21EAE4E6400C4E889 /* WrazeniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A5066BF1EAE4E6400C4E889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5066A81EAE4E6300C4E889 /* Wrazenia */;
+			targetProxy = 9A5066BE1EAE4E6400C4E889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A5066B01EAE4E6400C4E889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A5066B11EAE4E6400C4E889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A5066B51EAE4E6400C4E889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A5066B61EAE4E6400C4E889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A5066C41EAE4E6400C4E889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A5066C51EAE4E6400C4E889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A5066C71EAE4E6400C4E889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wrazenia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Wrazenia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A5066C81EAE4E6400C4E889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wrazenia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Wrazenia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A5066CA1EAE4E6400C4E889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WrazeniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WrazeniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrazenia.app/Wrazenia";
+			};
+			name = Debug;
+		};
+		9A5066CB1EAE4E6400C4E889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WrazeniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WrazeniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrazenia.app/Wrazenia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A5066A41EAE4E6300C4E889 /* Build configuration list for PBXProject "Wrazenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5066C41EAE4E6400C4E889 /* Debug */,
+				9A5066C51EAE4E6400C4E889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5066C61EAE4E6400C4E889 /* Build configuration list for PBXNativeTarget "Wrazenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5066C71EAE4E6400C4E889 /* Debug */,
+				9A5066C81EAE4E6400C4E889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5066C91EAE4E6400C4E889 /* Build configuration list for PBXNativeTarget "WrazeniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5066CA1EAE4E6400C4E889 /* Debug */,
+				9A5066CB1EAE4E6400C4E889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AF10AB31EC08FC10087F21C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AF10AB41EC08FC10087F21C /* Model.xcdatamodel */,
+			);
+			currentVersion = 9AF10AB41EC08FC10087F21C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A5066A11EAE4E6300C4E889 /* Project object */;
+}
